@@ -15,7 +15,7 @@ public:
         if(head == nullptr || head->next == nullptr)
             return head;
         ListNode *curr = head;
-        int tmp, nodeCnt = 1;
+        int tmp;
         while(curr->next != nullptr)
         {
             tmp = curr->val;
